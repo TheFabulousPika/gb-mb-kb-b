@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Byte converter</title>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="popup.css" type="text/css">
+  </head>
+  <body>
+    <span id="header">ConvertByte</span>
+<form>
+<table>
+<tr>
+<td><input type="text" id="gb" name="gb" onchange="gbFunc()"></td>
+<td><label for="gb">GB</label></td>
+<td><input type="button" value="Copy" onClick="copyField('gb');" /></td>
+</tr>
+<tr>
+<td><input type="text" id="mb" name="mb" onchange="mbFunc()"></td>
+<td><label for="mb">MB</label></td>
+<td><input type="button" value="Copy" onClick="copyField('mb');" /></td>
+</tr>
+<tr>
+<td><input type="text" id="kb" name="kb" onchange="kbFunc()"></td>
+<td><label for="gb">KB</label></td>
+<td><input type="button" value="Copy" onClick="copyField('kb');" /></td>
+</tr>
+<tr>
+<td><input type="text" id="bytes" name="bytes" onchange="bFunc()"></td>
+<td><label for="bytes">Bytes</label></td>
+<td><input type="button" value="Copy" onClick="copyField('bytes');" /></td>
+</tr>
+<tr>
+<td colspan="3"><input style="width:100%;text-align:center;" type="button" value="Clear" onClick="clearFields();" /></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

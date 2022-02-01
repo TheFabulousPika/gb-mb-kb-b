@@ -1,0 +1,16 @@
+#header {
+    background-color: #EEEEEE;
+    border: 1;
+    color: #333;
+    display: block;
+    font-family: "Arial", Sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    line-height: 1.2;
+    margin: 0;
+    padding:  0px;
+    position:relative;
+    text-align: center;
+    width: 300px;
+}
+input {text-align:right;}
